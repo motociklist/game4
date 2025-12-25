@@ -29,7 +29,7 @@ class ProgressBar extends StatelessWidget {
           ),
         LinearProgressIndicator(
           value: progress,
-          backgroundColor: Colors.white.withOpacity(0.3),
+          backgroundColor: Colors.white.withValues(alpha: 0.3),
           valueColor: const AlwaysStoppedAnimation<Color>(Colors.white),
           minHeight: 8,
         ),
